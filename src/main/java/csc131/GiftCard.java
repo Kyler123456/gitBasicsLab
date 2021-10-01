@@ -63,7 +63,7 @@ public class GiftCard
         
         if (amount < 0.0)
         {
-            result = "Invalid Transaction";
+            result = "There cannot be a negative amount to deduct from the gift card";
         }
         else
         {
